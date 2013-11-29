@@ -1,0 +1,68 @@
+##############################################
+# This file is part of certificate-inventory.
+#
+# certificate-inventory is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by the Free
+# Software Foundation, either version 3 of the License, or (at your option) any
+# later version.
+#
+# certificate-inventory is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# certificate-inventory. If not, see <http://www.gnu.org/licenses/>.
+##############################################
+
+##############################################
+# Author: Oscar Koeroo <oscar.koeroo@kpn.com>
+# Office: KPN CISO / Red Team - Ethical Hacker
+# Project: Certs-on-Fire
+# Date: September 14, 2013
+# Version: 0.1, Powershell version
+# License: GPLv3
+##############################################
+
+
+Description:
+Scans hosts on a given TCP portnumber for certificates found on
+plain-SSL/TLS connections, e.g. HTTPS. The output is written in a CSV formatted
+file.
+
+
+Requirements for the tool:
+-   Windows Server or Desktop edition
+-   Powershell 2.0 and .Net
+
+
+Version 0.1:
+- Initial version.
+- Works and tested on Windows Server 2012
+- Doesn't take in parameters, needs additional work to take additional input
+
+
+......................................................................................
+.......?=~:~~=+I,.....................................................................
+......?~:,..,,:=+?I,..................................................................
+.....7=:,.....,:~=??I.................................................................
+....+7+~,.....,::~++?II...............................................................
+....O$I+=~::,,,:~~.+?III..............................................................
+... OZ$7I??+====~...,III7............88888............................................
+....OOOOZ$77II????.=7777$:...........88888............................................
+....8OOOOOOZZZZZ$$$$$Z7777II?=.......88888............................................
+....$8OOOOOOO.....ZI....7III????.....88888....77777 ...,$88O888O.........788888887....
+.....D$ZZZZZ,..,$Z$77:...II???++?....88888...8888O....888888888888=....=888888888888..
+...=$$$$...$~..?Z$$777...I,..+++++...88888..O888= ....8888:...O8888....=8888...?O888=.
+..$$$$$:. ZZZ...Z$777...II?...===+...88888+8888.......8888.....88888...=8888....78888.
+.$$$$$$$..=Z$$...77$~..+?I+..,===....88888O888Z.......8888.....?8888...=8888....:8888.
+.$$77777$...$$$..,$I..+$I.. ~~~~+....88888.O8888......8888.....88888 ..=8888....:8888.
+.II?==??77+I$Z$$$$$$$$$$I+,=~~:~.....88888..88888.....8888,...,8888....=8888....:8888.
+..I?~,:=?II7~...........,+=~:::=.....88888...88888....888888888888?....=8888....:8888.
+...~=,.:=+?I.....,,,.....=~:,,=......88888....88888...888888888OZ......=888O....:888O.
+.....:=,:~++?I77$$$$$$$7=~:..:,.......................8888,...........................
+........+?++??I77$$$$$$=~:,..=........................8888............................
+.............+77$$$7I++=~,..:,........................8888,...........................
+...................=?++=:,,,+.........................................................
+.....................+++=~~=..........................................................
+........................,,............................................................
